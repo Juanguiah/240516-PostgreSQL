@@ -17,6 +17,7 @@ where id =1
 delete from public.vehiculos 
 where id =2```
 
+
 Ahora creemos una base de datos y tabla con los comandos DDL (Data Definition Language) y luego eliminimemos columnas, alteremosla, agreguemosla de nuevo, y eliminemos los datos con el siguiente script:
 
 ```create database "Compra-venta"
