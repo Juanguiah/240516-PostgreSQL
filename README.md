@@ -15,12 +15,14 @@ set modelo = '2022'
 where id =1
 
 delete from public.vehiculos 
-where id =2```
+where id =2
+```
 
 
 Ahora creemos una base de datos y tabla con los comandos DDL (Data Definition Language) y luego eliminimemos columnas, alteremosla, agreguemosla de nuevo, y eliminemos los datos con el siguiente script:
 
-```create database "Compra-venta"
+```
+create database "Compra-venta"
 
 create table cliente(
 id serial primary key,
